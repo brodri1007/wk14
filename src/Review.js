@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-export default function Reviews(props) {
+export default function Reviews() {
     const starsArr = [1, 2, 3, 4, 5];  
     const [rating, setRating] = useState(0);
   
@@ -12,7 +12,7 @@ export default function Reviews(props) {
         ele.style.fill = "gold";
       }
     };
-  
+  debugger
     const removeHoverEffect = (e) => {
       const id = parseInt(e.target.id);
       if (id <= rating) return;

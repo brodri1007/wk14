@@ -80,35 +80,35 @@ export default function Movies() {
                 return (       
                    <div><h2 className='p-4'>Movies Review</h2>         
                 <div  className="row-fluid w-60 d-flex justify-content-center h-100 ">                    
-                        <div className="col card m-3 border">
+                        <div className="col card m-3 p-5 border">
                             <div><h4>{movies[0].title}</h4></div>
                             <div><img src={movies[0].image} alt="img" width="150px"/></div>
                            <div>{movies[0].year} / {movies[0].genre}</div>
-                           <div className="card-footer mx-auto class">
+                           <div className="card-footer mx-auto " id={movies[0].id}>
                                 <Reviews />                                    
                            </div>
                         </div> 
-                        <div className="col card m-3 border">
-                            <div><h4>{movies[0].title}</h4></div>
-                            <div><img src={movies[0].image} alt="img" width="150px"/></div>
-                           <div>{movies[0].year} / {movies[0].genre}</div>
-                           <div className="card-footer mx-auto class">
+                        <div className="col card m-3 p-5 border">
+                            <div><h4>{movies[1].title}</h4></div>
+                            <div><img src={movies[1].image} alt="img" width="150px"/></div>
+                           <div>{movies[0].year} / {movies[1].genre}</div>
+                           <div className="card-footer mx-auto " id={movies[1].id}>
                                 <Reviews />                                    
                            </div>
                         </div> 
-                        <div className="col card m-3 border">
-                            <div><h4>{movies[0].title}</h4></div>
-                            <div><img src={movies[0].image} alt="img" width="150px"/></div>
-                           <div>{movies[0].year} / {movies[0].genre}</div>
-                           <div className="card-footer mx-auto class">
+                        <div className="col card m-3 p-5 border">
+                            <div><h4>{movies[2].title}</h4></div>
+                            <div><img src={movies[2].image} alt="img" width="150px"/></div>
+                           <div>{movies[2].year} / {movies[2].genre}</div>
+                           <div className="card-footer mx-auto " id={movies[2].id}>
                                 <Reviews />                                    
                            </div>
                         </div> 
-                        <div className="col card m-3 border">
-                            <div><h4>{movies[0].title}</h4></div>
-                            <div><img src={movies[0].image} alt="img" width="150px"/></div>
-                           <div>{movies[0].year} / {movies[0].genre}</div>
-                           <div className="card-footer  mx-auto class">
+                        <div className="col card m-3 p-5 border">
+                            <div><h4>{movies[3].title}</h4></div>
+                            <div><img src={movies[3].image} alt="img" width="150px"/></div>
+                           <div>{movies[0].year} / {movies[3].genre}</div>
+                           <div className="card-footer  mx-auto "  id={movies[3].id}>
                                 <Reviews />                                    
                            </div>
                         </div> 
