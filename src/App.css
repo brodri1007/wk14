@@ -6,13 +6,26 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.center {
+  width: 360px;
+  margin: auto;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.card {
 
+  width: 360px;
+  margin: auto;
+}
+
+#review {
+
+  width: 260px;
+  margin: auto;
+}
 
 .moviesList {
   color: rgb(12, 12, 12);

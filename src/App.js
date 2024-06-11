@@ -1,14 +1,15 @@
 
 import './App.css';
-import Movies from './Movies';
+import MovieList from './MoviesList';
 
 
 
 function App() {
   return (
-    <div className="App">    
-     <Movies />
-     
+    <div className="App">
+      <div className="row">
+        <MovieList />
+      </div>
     </div>
   );
 }
