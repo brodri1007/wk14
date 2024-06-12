@@ -1,14 +1,17 @@
 import React from 'react';
 import Reviews from './ReviewList';
+
 export default function Movie (props) {
     let title = props.title;
-    let image = props.photo;
-    let year = props.release_date
+    let image = props.image;
+    let year = props.year;
+    let genre = props.genre;
 
     return (
         <div className="card">
-            <div> <img src={image} alt="test"/></div>
-            <div>{title} / {year}</div>
+            <h2>{title}</h2>
+            <div> <img src={image} width="150px" alt="test"/></div>
+            <div>{genre} / {year}</div>
             <div>
                 <Reviews />
             </div>

@@ -14,7 +14,7 @@ export default function Stars() {
         ele.style.fill = "gold";
       }
     };
-  debugger
+
     const removeHoverEffect = (e) => {
       const id = parseInt(e.target.id);
       if (id <= rating) return;
